@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'movimentacoes',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
@@ -120,4 +122,5 @@ STATIC_URL = 'static/'
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
+# Campo para implementação do auto field no bando de dados
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
